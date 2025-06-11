@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Dashboard - Hindi Dubs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .anime-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .anime-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px; /* Adjust as needed for your image aspect ratio */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+            display: flex; /* Added for flexbox column layout */
+            flex-direction: column; /* Stack items vertically */
+            justify-content: space-between; /* Distribute space */
+        }
+        .anime-card:hover {
+            transform: translateY(-5px);
+        }
+        .anime-card img {
+            max-width: 100%;
+            height: auto;
+            max-height: 350px; /* You can set a max height for consistency */
+            object-fit: cover; /* This will cover the area, cropping if necessary */
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .anime-card h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .anime-card p {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 15px;
+            min-height: 60px; /* To give some space for description */
+            flex-grow: 1; /* Allow description to take available space */
+        }
+        .anime-card .tags-container { /* Container for tags */
+            margin-bottom: 15px;
+        }
+        .anime-card a.details-link { /* Specific class for the details link */
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            display: block; /* Make it block to take full width */
+            margin-top: auto; /* Push to bottom if card is taller */
+        }
+        .anime-card a.details-link:hover {
+            text-decoration: underline;
+        }
+        .tag {
+            font-size: 0.8em;
+            background-color: #e0e0e0;
+            padding: 3px 8px;
+            border-radius: 10px;
+            color: #555;
+            margin: 2px; /* Added small margin around tags */
+            display: inline-block;
+        }
+        .tag-adult { /* New style for 18+ tag */
+            background-color: #c62828; /* Red color */
+            color: white;
+            font-weight: bold;
+        }
+        /* Style for Ad Placeholders */
+        .ad-placeholder {
+            width: auto; /* Ad script will define width */
+            min-height: 50px; /* Minimum height, ad script will define actual height */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            text-align: center;
+            overflow: hidden; /* To contain iframe ads */
+        }
+        .ad-placeholder-top {
+             /* Specific styles for top banner if needed */
+             /* Ad script sets 468x60 */
+        }
+        .ad-placeholder-bottom {
+            /* Specific styles for bottom ad if needed */
+            /* Ad script sets 300x250 */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Anime notify (Hindi Dubbed)</h1>
+
+        <!-- Ad Slot 1: Top Banner (468x60) -->
+        <div class="ad-placeholder ad-placeholder-top">
+            <script type="text/javascript">
+            atOptions = {
+                'key' : 'edb1c8e0339f69dfed447cfb5dc00cc6',
+                'format' : 'iframe',
+                'height' : 60,
+                'width' : 468,
+                'params' : {}
+            };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/edb1c8e0339f69dfed447cfb5dc00cc6/invoke.js"></script>
+        </div>
+
+        <div class="anime-grid">
+            <!-- Anime 1: You are Servant -->
+            <div class="anime-card">
+                <div>
+                    <a href="you-are-servant-download.html">
+                        <img src="https://i.postimg.cc/wxsWcFHp/b2ebc12f6edb51987e12cb437747c649-1.jpg" alt="You are Servant Poster">
+                        <h2>You are Servant</h2>
+                    </a>
+                    <p>
+                        Bound by an ancient pact, a young hero must serve a mysterious master, facing perils and uncovering dark secrets. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Fantasy</span> <span class="tag">Action</span>
+                    </div>
+                    <a href="you-are-servant-download.html" class="details-link">View Details & Download</a>
+                </div>
+            </div>
+            <!-- Anime 1: The World's Finest Assassin -->
+<div class="anime-card">
+    <div>
+        <a href="the-worlds-finest-assassin-download.html">
+            <img src="https://i.postimg.cc/8kmXn2Tv/d4b077ffe71c97b6508ab86dbc13fe5a.jpg" alt="The World's Finest Assassin Poster">
+            <h2>The World's Finest Assassin</h2>
+        </a>
+        <p>
+            Reincarnated in another world by a goddess, the world's greatest assassin must use his modern knowledge and skills to eliminate a dangerous hero. 
+            As he navigates political intrigue, deadly magic, and powerful enemies, he must balance his mission with his own moral code. (Hindi Dubbed Available)
+        </p>
+    </div>
+    <div>
+        <div class="tags-container">
+            <span class="tag">Isekai</span> <span class="tag">Action</span> <span class="tag">Fantasy</span>
+        </div>
+        <a href="the-worlds-finest-assassin-download.html" class="details-link">View Details & Download</a>
+    </div>
+</div>
+<!-- Anime 2: Classroom of the Elite -->
+<div class="anime-card">
+    <div>
+        <a href="classroom-of-the-elite-download.html">
+            <img src="https://i.postimg.cc/WbQ9DTnQ/images.webp" alt="Classroom of the Elite Poster">
+            <h2>Classroom of the Elite</h2>
+        </a>
+        <p>
+            In a prestigious high school where only the top students thrive, Kiyotaka Ayanokōji hides his true abilities while navigating a cutthroat system based on merit, manipulation, and psychological warfare. (Hindi Dubbed Available)
+        </p>
+    </div>
+    <div>
+        <div class="tags-container">
+            <span class="tag">Psychological</span> <span class="tag">School</span> <span class="tag">Drama</span>
+        </div>
+        <a href="classroom-of-the-elite-download.html" class="details-link">View Details & Download</a>
+    </div>
+</div>
+<!-- Anime 3: That Time I Got Reincarnated as a Slime -->
+<div class="anime-card">
+    <div>
+        <a href="that-time-i-got-reincarnated-as-a-slime-download.html">
+            <img src="https://i.postimg.cc/26Xbv1Fm/download-3.jpg" alt="That Time I Got Reincarnated as a Slime Poster">
+            <h2>That Time I Got Reincarnated as a Slime</h2>
+        </a>
+        <p>
+            After being killed in a random stabbing, 37-year-old Satoru Mikami wakes up in a fantasy world—as a slime. Blessed with unique abilities, he sets out to create a world that’s welcoming to all races. (Hindi Dubbed Available)
+        </p>
+    </div>
+    <div>
+        <div class="tags-container">
+            <span class="tag">Isekai</span> <span class="tag">Fantasy</span> <span class="tag">Adventure</span>
+        </div>
+        <a href="that-time-i-got-reincarnated-as-a-slime-download.html" class="details-link">View Details & Download</a>
+    </div>
+</div>
+<!-- Anime 4: As a Reincarnated Aristocrat -->
+<div class="anime-card">
+    <div>
+        <a href="as-a-reincarnated-aristocrat-download.html">
+            <img src="https://i.postimg.cc/htZt2f35/download-5.jpg" alt="As a Reincarnated Aristocrat Poster">
+            <h2>As a Reincarnated Aristocrat</h2>
+        </a>
+        <p>
+            After dying in modern Japan, a man is reincarnated into a fantasy world as Ars Louvent, a noble boy with the rare "Appraisal" skill. Using this ability to identify talented individuals, he gathers powerful allies and begins his quest to rise through the ranks. (Hindi Dubbed Available)
+        </p>
+    </div>
+    <div>
+        <div class="tags-container">
+            <span class="tag">Isekai</span> <span class="tag">Fantasy</span> <span class="tag">Strategy</span>
+        </div>
+        <a href="as-a-reincarnated-aristocrat-download.html" class="details-link">View Details & Download</a>
+    </div>
+</div>
+            <!-- Korean Drama: Miss Hammurabi -->
+            <div class="anime-card">
+                <div>
+                    <a href="miss-hammurabi-download.html">
+                        <img src="https://i.postimg.cc/W46P0xL8/ac7abc16b83376a4b20e912b0a304ea9.jpg" alt="Miss Hammurabi Poster">
+                        <h2>Miss Hammurabi</h2>
+                    </a>
+                    <p>
+                        A passionate, idealistic rookie judge and her by-the-book chief presiding judge navigate complex cases in this Korean legal drama. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Korean Drama</span> <span class="tag">Legal</span> <span class="tag">Drama</span>
+                    </div>
+                    <a href="miss-hammurabi-download.html" class="details-link">View Details & Download</a>
+                </div>
+            </div>
+
+            <!-- Korean Drama: Steal My Heart -->
+            <div class="anime-card">
+                <div>
+                    <a href="steal-my-heart-download.html"> <!-- Ensure this HTML file exists -->
+                        <img src="https://i.postimg.cc/TY5kFS2c/20c0764eb226a6fa50ed8bc6041542cf.jpg" alt="Steal My Heart Poster">
+                        <h2>Steal My Heart</h2>
+                    </a>
+                    <p>
+                        A thrilling Korean drama about a profiler and a charming cat burglar whose paths cross during a high-stakes heist. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Korean Drama</span> <span class="tag">Romance</span> <span class="tag">Thriller</span>
+                    </div>
+                    <a href="steal-my-heart-download.html" class="details-link">View Details & Download</a> <!-- Ensure this HTML file exists -->
+                </div>
+            </div>
+
+            <!-- Anime: Triple Ecchi (18+) -->
+            <div class="anime-card">
+                <div>
+                    <a href="triple-ecchi-download.html">
+                        <img src="https://i.postimg.cc/pLgkwpDr/hhhtripleecchi1-poster.jpg" alt="Triple Ecchi Poster">
+                        <h2>Triple Ecchi</h2>
+                    </a>
+                    <p>
+                        A hilariously risqué anime packed with fan service, suggestive humor, and comedic scenarios. For mature audiences. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Ecchi</span> <span class="tag">Comedy</span> <span class="tag tag-adult">18+ Adult</span>
+                    </div>
+                    <a href="triple-ecchi-download.html" class="details-link">View Details & Download</a>
+                </div>
+            </div>
+                        <!-- Anime: Tsundere Ecchi (18+) -->
+            <div class="anime-card">
+                <div>
+                    <a href="tsundero-download.html">
+                        <img src="https://i.postimg.cc/pXy6399b/images-3.jpg" alt="Tsundere Poster">
+                        <h2>Tsundere</h2>
+                    </a>
+                    <p>
+                        A romantic comedy featuring a fiery tsundere heroine who struggles to express her feelings. Packed with humor, heartwarming moments, and anime-style drama. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Tsundere</span> <span class="tag">Comedy</span> <span class="tag tag-adult">18+ Adult</span>
+                    </div>
+                    <a href="tsundero-download.html" class="details-link">View Details & Download</a>
+                </div>
+            </div>
+             
+
+            <!-- To add another anime, copy the .anime-card div block:
+            <div class="anime-card">
+                <div>
+                    <a href="another-anime-download.html">
+                        <img src="[URL_OF_ANOTHER_ANIME_POSTER]" alt="[Another Anime Name] Poster">
+                        <h2>[Another Anime Name]</h2>
+                    </a>
+                    <p>
+                        Short description of this other amazing anime. (Hindi Dubbed Available)
+                    </p>
+                </div>
+                <div>
+                    <div class="tags-container">
+                        <span class="tag">Genre1</span> <span class="tag">Genre2</span>
+                    </div>
+                    <a href="another-anime-download.html" class="details-link">View Details & Download</a>
+                </div>
+            </div>
+            -->
+        </div> <!-- end of .anime-grid -->
+
+        <!-- Ad Slot 2: Bottom Ad (300x250) -->
+        <div class="ad-placeholder ad-placeholder-bottom">
+            <script type="text/javascript">
+            atOptions = {
+                'key' : 'a22e64d6b2f3f0440374676c5922d5ac',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/a22e64d6b2f3f0440374676c5922d5ac/invoke.js"></script>
+        </div>
+
+    </div> <!-- end of .container -->
+
+    <!-- Profitableratecpm.com Ads - typically placed before </body> -->
+    <script type='text/javascript' src='//pl26866868.profitableratecpm.com/7d/36/7e/7d367e79fac3e62d731658fff3c1559e.js'></script>
+    <script type='text/javascript' src='//pl26866872.profitableratecpm.com/ca/2c/d4/ca2cd4797703e97ee11f3250c352f378.js'></script>
+
+</body>
+</html>
